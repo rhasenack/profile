@@ -1,0 +1,99 @@
+
+body {
+  background-color:rgb(230, 230, 230);
+  color: rgb(70, 70, 70);
+  font-family:'Open Sans', sans-serif;
+}
+
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 1000;
+  font-size: 30px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 1000;
+  font-size: 25px;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  font-weight: bolder;
+}
+
+p {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+li {
+  color: royalblue
+}
+
+.card {
+  background-color: white;
+  /*margin: 20px 450px 40px 450px;*/
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: -5px 10px 10px rgb(200, 200, 200);
+  padding: 25px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.profile-pic {
+  width: 100px;
+}
+
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 40px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+
+.btn-style {
+  background-color: slateblue;
+  padding: 5px 10px 5px 10px;
+  border-radius: 6px;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
