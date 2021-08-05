@@ -97,5 +97,9 @@ p {
 
 
 .social-link {
-  color: royalblue
+  color: royalblue;
+}
+
+a:visited {
+  color: royalblue;
 }
